@@ -4,6 +4,7 @@
 
 nav li{
   display: inline;
+  float:right; 
 }
 
 a:hover{
