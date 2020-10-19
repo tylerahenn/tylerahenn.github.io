@@ -4,7 +4,8 @@
 
 nav li{
   display: inline;
-  float:right; 
+  float:right;
+  text-decoration: none;
 }
 
 a:hover{
