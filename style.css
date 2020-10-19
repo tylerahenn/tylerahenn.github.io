@@ -1,0 +1,11 @@
+*{
+  transition: .5s;
+}
+
+nav li{
+  display: inline;
+}
+
+a:hover{
+  color: coral;
+}
