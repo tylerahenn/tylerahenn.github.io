@@ -1,4 +1,4 @@
-*{
+a{
   transition: .5s;
 }
 
@@ -49,4 +49,10 @@ a:hover{
   float: right;
   margin-right: 20%;
 
+}
+
+#error{
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
 }
