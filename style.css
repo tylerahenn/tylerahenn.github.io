@@ -2,12 +2,51 @@
   transition: .5s;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+}
 nav li{
   display: inline;
   float:right;
   text-decoration: none;
+  padding-right: 40px;
+  text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+nav img{
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 a:hover{
   color: coral;
+}
+
+#intro{
+  margin-top: 200px;
+  margin-left: 20%;
+  width: 80%;
+
+}
+
+#indexpic{
+  float: right;
+  margin-right: 20%;
+
 }
