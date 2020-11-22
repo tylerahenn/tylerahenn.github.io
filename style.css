@@ -1,5 +1,6 @@
 a, h2{
   transition: .5s;
+
 }
 
 
@@ -12,9 +13,10 @@ nav{
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 40px;
+  height: 50px;
   position: fixed;
   top: 0;
+  background-color: white;
 }
 nav li{
   display: inline;
@@ -82,4 +84,86 @@ h2 a{
   margin-left: 20%;
   margin-right: 20%;
   padding-left: 5%;
+}
+
+/*Quickflicks stuff */
+
+.shell{
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+
+.shell h2{
+  text-align: center;
+}
+
+.opening{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.opening img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.intro{
+  width: 100%;
+  margin-bottom: 300px;
+}
+
+.introLeft{
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+}
+
+.introRight{
+  float: right;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.lean{
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+
+.sprint1design0{
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+
+.fourPics{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 100px;
+}
+
+.fourPics li{
+  list-style-type: none;
+  list-style: none;
+  display: inline;
+}
+
+.personas{
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+
+.threePics{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.threePics li{
+  list-style-type: none;
+  list-style: none;
+  display: inline;
 }
