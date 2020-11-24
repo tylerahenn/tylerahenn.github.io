@@ -1,3 +1,12 @@
+@font-face {
+    src: url(Concourse_Regular.ttf);
+    font-family: Concourse;
+}
+
+p, h1, h2, ul, li, a {
+  font-family: Concourse;
+}
+
 a, h2{
   transition: .5s;
 
@@ -97,7 +106,7 @@ h2 a{
   font-size: 20px;
 }
 
-.shell h2{
+.shell h1, h2{
   text-align: center;
 }
 
